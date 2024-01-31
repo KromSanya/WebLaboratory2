@@ -1,0 +1,95 @@
+.inactive{
+    filter: opacity(0.5);
+}
+
+.SliderContent{
+    border-radius: 1.5rem;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SliderContent > h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Muli;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 1%;
+}
+
+.SliderContent > hr {
+    width: 3.5rem;
+    height: 0.125rem;
+    border-style: none;
+    background-color: white;
+    border-radius: 0.3125rem;
+}
+
+.SliderContent > div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.SliderContent > div > *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 5%;
+    color: white;
+}
+
+.SliderContent > div > div > img{
+    border-radius: 100%;
+    border-width: 4px;
+    border-color: white;
+    border-style: solid;
+    height: 12vw;
+    width: 12vw;
+}
+
+.SliderContent > div > div > div{
+    margin-left: 10%;
+}
+
+.SliderContent > div > div > div > p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+.NameText{
+    color: #FFF;
+    font-family: Muli;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem; /* 218.182% */
+}
+
+
+
+.controlsDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1vw;
+}
+
+.controlsDiv > img{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.controlsDiv > div > img{
+    margin-left: 1vw;
+}

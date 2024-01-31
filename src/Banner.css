@@ -1,0 +1,44 @@
+.blockFlexHorizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.blockFlexHorizontal > div > hr {
+    width: 5rem;
+    height: 0.125rem;
+    border-style: none;
+    background-color: black;
+    border-radius: 0.3125rem;
+    margin-left: 0;
+}
+
+.blockFlexHorizontal > *{
+    width: 50%;
+}
+
+.blockFlexHorizontal > div{
+    padding: 5%;
+}
+
+h2{
+    font-size: 48px;
+    width: 70%;
+
+    color: #000;
+    font-family: Muli;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 116.667% */
+}
+
+p{
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem; /* 152.381% */
+}

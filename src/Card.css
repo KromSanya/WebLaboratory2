@@ -1,0 +1,25 @@
+.card{
+    width: 21.875rem;
+    height: 22.125rem;
+    margin: 1%;
+    padding: 2%;
+    
+    border-radius: 1.25rem;
+    background: #FFF;
+
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    
+  }
+  
+  .card > img {
+    height: 5.625rem;
+  }
+  
+  .card > H3{
+    font-size: 24px;
+  }
+  
+  .card > p{
+    font-size: 16px;
+  /*   line-height: 28px; */
+  }

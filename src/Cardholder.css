@@ -1,0 +1,41 @@
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.cardsDiv > h2{
+  text-align: center;
+  width: 100%;
+  font-size: 2.25rem;
+}
+
+.cardsDiv > hr {
+  width: 3.5rem;
+  height: 0.125rem;
+  border-style: none;
+  background-color: black;
+  border-radius: 0.3125rem;
+}
+
+.cardsDiv > p {
+  font-size: 1.125rem;
+  text-align: center;
+  width: 59.5rem;
+}
+
+.whiteButton{
+  margin-top: 5%;
+  width: 200px;
+  height: 56px;
+  background-color: white;
+  color: #458FF6;
+  border-color: #458FF6;
+}
